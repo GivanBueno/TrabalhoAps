@@ -1,36 +1,55 @@
 body{
 	font-family: Helvetica, sans-serif; /* Altera a fonte de todo o texto */
+	/*background: linear-gradient(to top , #B0C4DE, #4169E1);*/
+	background-image: url("../Imagens/Blue sky.jpg");
+	background-repeat: no-repeat;
+}
+
+#SuperiorTela{
+	width:960px;
+	height:60px;
+	margin: auto; /* Centralizar */
+	background-image: url("../Imagens/toposite.jpg");
+	/*background: linear-gradient( to right, #B0C4DE, #4169E1) ;*/
+	padding: 10px 20px;
+
 }
 
 #CorpodoSite{
 	width: 960px; /* Largura da div */
 	margin: auto; /* Centralizar */
-	background: #e3e3e3;
+	background: linear-gradient(#e3e3e3, #A9A9A9);
 	padding: 10px 20px; /* Espaçamento  */
 }
 
-header nav ul{
-	list-style: none; /* Tira o marcador das palavras */
-	padding-left: 0px; 
+
+h1{
+	position: absolute;
+	margin: 10px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
 }
 
-header nav ul li{
-	display: inline-block; /* Deixa as "li" uma do lado da outra */
-	margin-right: 10px;
+.paragrafo{
+	text-indent: 50px;
 }
 
-header nav ul li a{
-	font-size: 16px;
-	color: #ff6600;
-	text-decoration: none;
-}
-
-header nav ul li a:hover{
-	text-decoration: underline; /* Deixa sublinhado quando passar o mouse sobre */
-}
 
 textarea{
 	margin: 0px; 
 	width: 952px; 
 	height: 525px;						
+}
+
+article form input{
+
+}
+
+#Rodape{
+	width:960px;
+	height:90px;
+	margin: auto; /* Centralizar */
+	background: linear-gradient( to right, #B0C4DE, #4169E1) ;
+	padding: 10px 20px;
+
 }
